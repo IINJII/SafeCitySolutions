@@ -135,12 +135,6 @@ const data = {
     }]
   };
 
-const config = {
-    type: 'doughnut',
-    data: data,
-  };
-
-
 
 new Chart(ctx, {
     type: 'doughnut',
