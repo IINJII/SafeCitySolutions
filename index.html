@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <title>Website</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid text-center justify-content-center">
+            <a style="font-size: 2rem;" class="navbar-brand" href="index.html"><span class="text-info">Safe</span><span class="text-danger">City</span><span class="text-warning">Solutions</span></a>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <header>
+        <div class="jumbotron text-center my-2">
+            <h1 class="display-4" style="font-weight: bolder"><span class="text-info">Safe</span><span class="text-danger">City</span><span class="text-warning">Solutions</span></h1>
+            <p class="lead">Dynamic visualizations leading to reduction in crimes</p>
+            <hr class="my-4">
+        </div>
+    </header>
+
+
+
+
+
+    <!-- Center Hero -->
+    <div class="px-4 pt-5 text-center border-bottom" style="margin-bottom: 200px;">
+        <h1 class="display-4 fw-bold">We aid at declining the rates of crime.</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Crimes are a common social problem affecting the quality of life and the economic growth of a society. It is considered an essential factor that determines whether or not people move to a new city and what places should be avoided when they travel.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            </div>
+        </div>
+        <div style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="https://emerj.com/wp-content/uploads/2018/04/ai-for-crime-prevention-and-detection-5-current-applications-1045x471.png"
+                    class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="900" height="700"
+                    loading="lazy">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Left aligned Hero -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img style="height:350px; width: 1000px;"
+                    src="https://lh3.googleusercontent.com/drive-viewer/AITFw-yU3X7iiJaek5SyJqTepxTNc_vWfcGZkvDdc_3Eno8LcXusYIyIjWV3sBmu-eEOqo33SqVdMjrtrzj18i9BmkRPDyy_Jg=w1920-h932"
+                    class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Get real-time analytics of crime rates</h1>
+                <p class="lead">By providing a technology approach to determine the most criminal hotspots and find the type, location and time of committed crimes, we hope to raise people’s awareness regarding the dangerous locations in certain time periods.Therefore, our proposed solution can potentially help people stay away from the locations at a certain time of the day along with saving lives.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Right aligned Hero -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Faster and Precise Performance</h1>
+                <p class="lead">
+                    With the increase of crimes, law enforcement agencies are continuing to demand advanced geographic information systems and new web application approaches to improve crime analytics and better protect their communities.Although crimes could occur everywhere, it is common that criminals work on crime opportunities they face in most familiar areas for them.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                </div>
+            </div>
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img style="height:350px; width: 1100px;"
+                    src="https://lh3.googleusercontent.com/drive-viewer/AITFw-yX3yBM0aF3n9uJM8DzuMMi-jbrbG_h2cbJtBpEvTb0eL1K1fGNPRRV6XYwBgWPK6UkQG2ldPuGoN9wb40gpHJIJShRhA=w1920-h932"
+                    class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Join Us Button -->
+    <div class="text-center" style="justify-content: center">
+        <a href="./templates/map.html">
+            <button class="btn btn-warning w-25" type="button"
+                style="transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;">
+                <h2>Get Started</h2>
+            </button>
+        </a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; */
+}
+
+body{
+    height: 100vh;
+}
+
+main{
+    margin: 10px;
+}
+
+#map{
+    height: 500px;
+    border-radius: 5px;
+}
